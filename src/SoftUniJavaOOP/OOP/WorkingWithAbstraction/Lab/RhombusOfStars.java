@@ -7,11 +7,7 @@ public class RhombusOfStars {
         Scanner scanner = new Scanner(System.in);
 
         int input = Integer.parseInt(scanner.nextLine());
-        Method(input);
 
-    }
-
-    private static void Method(int input) {
         if (input == 1) {
             System.out.println("*");
         } else {
