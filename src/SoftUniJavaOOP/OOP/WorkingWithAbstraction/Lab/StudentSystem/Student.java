@@ -1,3 +1,5 @@
+package SoftUniJavaOOP.OOP.WorkingWithAbstraction.Lab.StudentSystem;
+
 public class Student {
     private String name;
     private int age;
