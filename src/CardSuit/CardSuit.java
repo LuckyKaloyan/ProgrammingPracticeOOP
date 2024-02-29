@@ -1,4 +1,4 @@
-package SoftUniJavaOOP.OOP.WorkingWithAbstraction.Excercise.CardSuit;
+package CardSuit;
 
 public enum CardSuit {
     CLUBS("CLUBS",0),
