@@ -23,3 +23,4 @@ public class Main {
             people.add(new Person(input[0], input[1], Integer.parseInt(input[2]), Double.parseDouble(input[3]))); }
         double bonus = Double.parseDouble(reader.readLine()); for (Person person : people) { person.increaseSalary(bonus); System.out.println(person.toString()); } }
 }
+
