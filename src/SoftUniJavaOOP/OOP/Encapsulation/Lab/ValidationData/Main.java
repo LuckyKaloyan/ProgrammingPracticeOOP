@@ -1,4 +1,4 @@
-package SoftUniJavaOOP.OOP.Encapsulation.ValidationData;
+package SoftUniJavaOOP.OOP.Encapsulation.Lab.ValidationData;
 
 import java.io.BufferedReader;
 import java.io.IOException;
