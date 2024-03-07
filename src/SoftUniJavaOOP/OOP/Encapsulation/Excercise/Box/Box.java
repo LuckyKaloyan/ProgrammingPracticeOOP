@@ -7,6 +7,9 @@ public class Box {
 
 
     public Box(double length, double width, double height){
+        if(length<=0){throw new IllegalArgumentException("Length cannot be zero or negative.");}
+        if(width<=0){throw new IllegalArgumentException("Width cannot be zero or negative.");}
+        if(height<=0){throw new IllegalArgumentException("Height cannot be zero or negative.");}
         this.length = length;
         this.width = width;
         this.height = height;
