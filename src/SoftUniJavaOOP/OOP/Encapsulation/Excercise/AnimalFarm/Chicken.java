@@ -17,9 +17,8 @@ public class Chicken {
     }
 
     public double productPerDay(){
-        double a;
-        
-        return a;
+
+return 2.0;
     }
 
 
