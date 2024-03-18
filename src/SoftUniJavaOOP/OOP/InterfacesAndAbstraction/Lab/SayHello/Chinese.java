@@ -1,6 +1,6 @@
 package SoftUniJavaOOP.OOP.InterfacesAndAbstraction.Lab.SayHello;
 
-public class Chinese implements  Person{
+public class Chinese implements Person {
 
     private String name;
 

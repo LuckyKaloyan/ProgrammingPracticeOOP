@@ -1,6 +1,6 @@
 package SoftUniJavaOOP.OOP.InterfacesAndAbstraction.Lab.SayHello;
 
-public class Bulgarian implements Person{
+public class Bulgarian implements Person {
     private String name;
     public Bulgarian(String name){
         this.name = name;
