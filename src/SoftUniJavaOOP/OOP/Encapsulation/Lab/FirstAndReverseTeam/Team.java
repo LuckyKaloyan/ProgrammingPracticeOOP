@@ -5,31 +5,32 @@ import java.util.Collections;
 import java.util.List;
 
 public class Team {
-    private   String name;
+    private String name;
     private List<Person> firstTeam = new ArrayList<>();
-    private  List<Person> reverseTeam = new ArrayList<>();
+    private List<Person> reserveTeam = new ArrayList<>();
+    private static final int AGE_CUTOFF = 40;
 
-    public Team(String name){
+    public Team(String name) {
         this.name = name;
     }
 
     public String getName() {
         return name;
     }
-    public void addPlayer(Person person){
-        if(person.getAge()<40){
+
+    public void addPlayer(Person person) {
+        if (person.getAge() < AGE_CUTOFF) {
             firstTeam.add(person);
-        }else{
-            reverseTeam.add(person);
+        } else {
+            reserveTeam.add(person);
         }
     }
 
     public List<Person> getFirstTeam() {
-      return  Collections.unmodifiableList(this.firstTeam);
+        return Collections.unmodifiableList(firstTeam);
     }
 
-    public List<Person> getReverseTeam() {
-        return  Collections.unmodifiableList(this.reverseTeam);
+    public List<Person> getReserveTeam() {
+        return Collections.unmodifiableList(reserveTeam);
     }
-
 }

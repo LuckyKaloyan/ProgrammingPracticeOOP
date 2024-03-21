@@ -14,7 +14,7 @@ public class Main {
         }
 
         System.out.printf("First team have %d players%n", team.getFirstTeam().size());
-        System.out.printf("Reverse team have %d players", team.getReverseTeam().size());
+        System.out.printf("Reverse team have %d players", team.getReserveTeam().size());
 
 
     }

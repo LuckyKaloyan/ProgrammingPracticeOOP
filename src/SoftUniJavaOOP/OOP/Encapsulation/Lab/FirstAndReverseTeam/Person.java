@@ -1,57 +1,74 @@
 package SoftUniJavaOOP.OOP.Encapsulation.Lab.FirstAndReverseTeam;
 
 public class Person {
-    private String firstname;
-    private String lastname;
+    private String firstName; // Corrected field name
+    private String lastName; // Corrected field name
     private int age;
     private double salary;
 
-
-    public Person(String firstname, String lastname, int age, double salary){
-
-        this.firstname = firstname;
-        this.lastname = lastname;
-        this.age = age;
-        this.salary = salary;
-
+    public Person(String firstName, String lastName, int age, double salary) {
+        setFirstName(firstName);
+        setLastName(lastName);
+        setAge(age);
+        setSalary(salary);
     }
 
-    public String getFirstname() {
-        return firstname;
+    public String getFirstName() {
+        return firstName;
     }
 
-    public void setFirstname(String firstname) {
-        this.firstname = firstname;
-    }
-
-    public String getLastname() {
-        return lastname;
-    }
-
-    public void setLastname(String lastname) {
-        this.lastname = lastname;
-    }
-
-    public int getAge() {
-        return age;
+    public void setFirstName(String firstName) {
+        if (firstName.length() < 3) {
+            throw new IllegalArgumentException("First name cannot be less than 3 symbols");
+        } else {
+            this.firstName = firstName;
+        }
     }
 
     public double getSalary() {
+        if (salary < 460) {
+            throw new IllegalArgumentException("Salary cannot be less than 460 leva");
+        }
         return salary;
     }
 
     public void setSalary(double salary) {
+        if (salary < 460) {
+            throw new IllegalArgumentException("Salary cannot be less than 460 leva");
+        }
         this.salary = salary;
     }
 
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        if (lastName.length() < 3) {
+            throw new IllegalArgumentException("Last name cannot be less than 3 symbols");
+        }
+        this.lastName = lastName;
+    }
+
+    public int getAge() {
+        if (age <= 0) {
+            throw new IllegalArgumentException("Age cannot be zero or negative integer");
+        }
+        return age;
+    }
+
     public void setAge(int age) {
+        if (age <= 0) {
+            throw new IllegalArgumentException("Age cannot be zero or negative integer");
+        }
         this.age = age;
     }
 
     @Override
     public String toString() {
-        return String.format("%s %s is %.2f leva",firstname,lastname,salary);
+        return String.format("%s %s is %.2f leva", firstName, lastName, salary);
     }
+
     public void increaseSalary(double percentage) {
         if (this.getAge() >= 30) {
             salary = salary * (1 + (percentage / 100));
@@ -59,5 +76,4 @@ public class Person {
             salary = salary * (1 + (percentage / 200));
         }
     }
-
 }
