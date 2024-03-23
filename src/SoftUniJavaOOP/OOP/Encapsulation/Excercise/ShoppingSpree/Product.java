@@ -12,17 +12,15 @@ public class Product {
 
     private void setName(String name) {
         if(null==name ||name.trim().isEmpty()){
-            System.out.println("Name cannot be empty");
-            return;
+            throw new IllegalArgumentException("Name cannot be empty");
         }else{
-        this.name = name;
-    }
+            this.name = name;
+        }
     }
 
     private void setCost(double cost) {
         if (cost < 0) {
-            System.out.println("Money cannot be negative");
-            return;
+            throw new IllegalArgumentException("Money cannot be negative");
         } else {
             this.cost = cost;
         }
