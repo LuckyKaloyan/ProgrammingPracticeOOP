@@ -20,4 +20,12 @@ public class Rectangle extends Shape {
         setPerimeter(2 * (height + width));
         return getPerimeter();
     }
+
+    public double getHeight() {
+        return height;
+    }
+
+    public double getWidth() {
+        return width;
+    }
 }

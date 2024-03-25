@@ -18,4 +18,8 @@ public class Circle extends Shape {
         setPerimeter(2 * Math.PI * radius);
         return getPerimeter();
     }
+
+    public final double getRadius() {
+        return radius;
+    }
 }
