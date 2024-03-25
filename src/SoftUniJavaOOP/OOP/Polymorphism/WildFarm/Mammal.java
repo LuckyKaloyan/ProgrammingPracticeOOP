@@ -1,7 +1,7 @@
 package SoftUniJavaOOP.OOP.Polymorphism.WildFarm;
 
 public abstract class Mammal extends Animal{
-    String livingRegion;
+    protected String livingRegion;
 
     public Mammal(String animalType, String animalName, Double animalWeight, String livingRegion){
         super(animalType,animalName,animalWeight);

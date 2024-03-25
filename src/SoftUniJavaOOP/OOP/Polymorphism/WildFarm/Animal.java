@@ -1,20 +1,34 @@
 package SoftUniJavaOOP.OOP.Polymorphism.WildFarm;
 
 public abstract class Animal {
-    String animalName;
-    String animalType;
-    Double animalWeight;
-    Integer foodEaten;
+    protected String animalName;
+    protected String animalType;
+    protected Double animalWeight;
+    protected Integer foodEaten;
 
-    public Animal(String animalName, String animalType, Double animalWeight){
+    public Animal(String animalType,String animalName, Double animalWeight){
         this.animalName = animalName;
         this.animalType = animalType;
         this.animalWeight = animalWeight;
-        this.foodEaten =0;
+        this.foodEaten = 0;
+    }
+
+    public String getAnimalName() {
+        return animalName;
+    }
+
+    public String getAnimalType() {
+        return animalType;
+    }
+
+    public Double getAnimalWeight() {
+        return animalWeight;
+    }
+
+    public Integer getFoodEaten() {
+        return foodEaten;
     }
 
     void makeSound(){}
-    void eat(Food food){
-        foodEaten = foodEaten+food.getQuantity();
-    }
+    void eat(Food food){}
 }
