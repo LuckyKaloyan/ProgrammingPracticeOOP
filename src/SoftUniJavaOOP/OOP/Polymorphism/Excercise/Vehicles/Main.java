@@ -1,4 +1,4 @@
-package Vehicles;
+package SoftUniJavaOOP.OOP.Polymorphism.Excercise.Vehicles;
 
 import java.util.Scanner;
 public class Main {
