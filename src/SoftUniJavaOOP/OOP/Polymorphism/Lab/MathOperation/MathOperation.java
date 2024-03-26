@@ -1,4 +1,4 @@
-package SoftUniJavaOOP.OOP.Polymorphism.MathOperation;
+package SoftUniJavaOOP.OOP.Polymorphism.Lab.MathOperation;
 
 public class MathOperation {
     public int add(int a, int b){

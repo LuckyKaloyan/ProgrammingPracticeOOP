@@ -1,4 +1,4 @@
-package SoftUniJavaOOP.OOP.Polymorphism.WildFarm;
+package SoftUniJavaOOP.OOP.Polymorphism.Lab.WildFarm;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;

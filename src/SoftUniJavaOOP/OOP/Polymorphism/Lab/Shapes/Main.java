@@ -1,4 +1,4 @@
-package SoftUniJavaOOP.OOP.Polymorphism.Shapes;
+package SoftUniJavaOOP.OOP.Polymorphism.Lab.Shapes;
 
 public class Main {
     public static void main(String[] args) {

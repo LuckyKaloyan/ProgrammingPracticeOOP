@@ -1,4 +1,4 @@
-package SoftUniJavaOOP.OOP.Polymorphism.Animals;
+package SoftUniJavaOOP.OOP.Polymorphism.Lab.Animals;
 
 public class Main {
     public static void main(String[] args) {

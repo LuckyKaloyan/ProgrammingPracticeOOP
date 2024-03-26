@@ -1,4 +1,4 @@
-package SoftUniJavaOOP.OOP.Polymorphism.WildFarm;
+package SoftUniJavaOOP.OOP.Polymorphism.Lab.WildFarm;
 
 public class Meat extends Food{
 

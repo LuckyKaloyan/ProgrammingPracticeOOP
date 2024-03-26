@@ -1,4 +1,4 @@
-package SoftUniJavaOOP.OOP.Polymorphism.WildFarm;
+package SoftUniJavaOOP.OOP.Polymorphism.Lab.WildFarm;
 
 public abstract class Mammal extends Animal{
     protected String livingRegion;

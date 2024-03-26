@@ -1,4 +1,4 @@
-package SoftUniJavaOOP.OOP.Polymorphism.Animals;
+package SoftUniJavaOOP.OOP.Polymorphism.Lab.Animals;
 
 public abstract class Animal {
      protected String name;
