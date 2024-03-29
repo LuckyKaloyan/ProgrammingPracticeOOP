@@ -1,10 +1,6 @@
-<<<<<<<< HEAD:src/SoftUniJavaOOP/OOP/Reflection/Excercise/BarracksWarsANewFactory/units/AbstractUnit.java
-package SoftUniJavaOOP.OOP.Reflection.Excercise.BarracksWarsANewFactory.units;
-========
-package barracksWarsTwo.models.units;
->>>>>>>> 7353e0765067345949fa83936db573ee3c92191f:src/barracksWarsTwo/models/units/AbstractUnit.java
+package SoftUniJavaOOP.OOP.Reflection.Excercise.BarracksANewFactory.units;
 
-import barracksWarsTwo.interfaces.Unit;
+import SoftUniJavaOOP.OOP.Reflection.Excercise.BarracksANewFactory.interfaces.Unit;
 
 public abstract class AbstractUnit implements Unit {
     private int health;

@@ -1,4 +1,4 @@
-package SoftUniJavaOOP.OOP.Reflection.Excercise.BarracksWarsANewFactory.units;
+package SoftUniJavaOOP.OOP.Reflection.Excercise.BarracksANewFactory.units;
 
 public class Gunner extends AbstractUnit {
 
