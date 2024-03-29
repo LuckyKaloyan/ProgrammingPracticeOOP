@@ -1,4 +1,4 @@
-package SoftUniJavaOOP.OOP.Reflection.Excercise.BarracksWarsANewFactory.models.units;
+package SoftUniJavaOOP.OOP.Reflection.Excercise.BarracksWarsTheCommandsStrikeBack.units;
 
 public class Pikeman extends AbstractUnit {
 

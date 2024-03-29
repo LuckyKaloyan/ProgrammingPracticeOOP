@@ -1,4 +1,4 @@
-package SoftUniJavaOOP.OOP.Reflection.Excercise.BarracksWarsANewFactory.models.units;
+package SoftUniJavaOOP.OOP.Reflection.Excercise.BarracksWarsTheCommandsStrikeBack.units;
 
 public class Swordsman extends AbstractUnit {
     private static final int SWORDSMAN_HEALTH = 40;

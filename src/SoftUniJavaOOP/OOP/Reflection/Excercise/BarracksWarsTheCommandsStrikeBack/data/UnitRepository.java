@@ -1,8 +1,7 @@
-package SoftUniJavaOOP.OOP.Reflection.Excercise.BarracksWarsANewFactory.data;
+package SoftUniJavaOOP.OOP.Reflection.Excercise.BarracksWarsTheCommandsStrikeBack.data;
 
-import SoftUniJavaOOP.OOP.Reflection.Excercise.BarracksWarsANewFactory.interfaces.Repository;
-import SoftUniJavaOOP.OOP.Reflection.Excercise.BarracksWarsANewFactory.interfaces.Unit;
-import jdk.jshell.spi.ExecutionControl;
+import SoftUniJavaOOP.OOP.Reflection.Excercise.BarracksWarsTheCommandsStrikeBack.interfaces.Repository;
+import SoftUniJavaOOP.OOP.Reflection.Excercise.BarracksWarsTheCommandsStrikeBack.interfaces.Unit;
 
 import java.util.Map;
 import java.util.TreeMap;
@@ -38,8 +37,16 @@ public class UnitRepository implements Repository {
 		return statBuilder.toString();
 	}
 
-	public void removeUnit(String unitType) throws ExecutionControl.NotImplementedException {
-		// TODO: implement for problem 4
-		throw new ExecutionControl.NotImplementedException("message");
+	public void removeUnit(String unitType) {
+		if (this.amountOfUnits.containsKey(unitType)) {
+			int currentAmount = this.amountOfUnits.get(unitType);
+			if (currentAmount > 0) {
+				this.amountOfUnits.put(unitType, currentAmount - 1);
+			} else {
+				throw new IllegalArgumentException("No such units in repository.");
+			}
+		} else {
+			throw new IllegalArgumentException("No such units in repository.");
+		}
 	}
 }

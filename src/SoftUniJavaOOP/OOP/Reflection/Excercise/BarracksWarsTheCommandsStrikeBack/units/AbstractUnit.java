@@ -1,6 +1,6 @@
-package SoftUniJavaOOP.OOP.Reflection.Excercise.BarracksWarsANewFactory.models.units;
+package SoftUniJavaOOP.OOP.Reflection.Excercise.BarracksWarsTheCommandsStrikeBack.units;
 
-import SoftUniJavaOOP.OOP.Reflection.Excercise.BarracksWarsANewFactory.interfaces.Unit;
+import SoftUniJavaOOP.OOP.Reflection.Excercise.BarracksWarsTheCommandsStrikeBack.interfaces.Unit;
 
 public abstract class AbstractUnit implements Unit {
     private int health;

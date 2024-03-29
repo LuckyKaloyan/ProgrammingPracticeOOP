@@ -1,11 +1,11 @@
-package barracksWars;
+package SoftUniJavaOOP.OOP.Reflection.Excercise.BarracksWarsANewFactory;
 
-import barracksWars.interfaces.Repository;
-import barracksWars.interfaces.Runnable;
-import barracksWars.interfaces.UnitFactory;
-import barracksWars.core.Engine;
-import barracksWars.core.factories.UnitFactoryImpl;
-import barracksWars.data.UnitRepository;
+import SoftUniJavaOOP.OOP.Reflection.Excercise.BarracksWarsANewFactory.interfaces.Repository;
+import SoftUniJavaOOP.OOP.Reflection.Excercise.BarracksWarsANewFactory.interfaces.Runnable;
+import SoftUniJavaOOP.OOP.Reflection.Excercise.BarracksWarsANewFactory.interfaces.UnitFactory;
+import SoftUniJavaOOP.OOP.Reflection.Excercise.BarracksWarsANewFactory.core.Engine;
+import SoftUniJavaOOP.OOP.Reflection.Excercise.BarracksWarsANewFactory.core.factories.UnitFactoryImpl;
+import SoftUniJavaOOP.OOP.Reflection.Excercise.BarracksWarsANewFactory.data.UnitRepository;
 
 public class Main {
 
