@@ -1,4 +1,4 @@
-package SoftUniJavaOOP.ExamPreparationOOP.climbers.handball.entities.equipment;
+package handball.entities.equipment;
 
 public class ElbowPad extends BaseEquipment{
     private static int DEFAULT_PROTECTION_VALUE = 90;

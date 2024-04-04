@@ -1,4 +1,4 @@
-package SoftUniJavaOOP.ExamPreparationOOP.climbers.handball.common;
+package handball.common;
 public enum Command {
     AddGameplay,
     AddTeam,

@@ -1,4 +1,4 @@
-package SoftUniJavaOOP.ExamPreparationOOP.climbers.handball.core;
+package handball.core;
 
 public interface Controller {
     String addGameplay(String gameplayType, String gameplayName);

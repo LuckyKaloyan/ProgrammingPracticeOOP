@@ -1,4 +1,4 @@
-package SoftUniJavaOOP.ExamPreparationOOP.climbers.handball.entities.team;
+package handball.entities.team;
 
 public class Germany extends BaseTeam{
 

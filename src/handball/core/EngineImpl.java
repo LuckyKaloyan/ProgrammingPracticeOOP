@@ -1,6 +1,6 @@
-package SoftUniJavaOOP.ExamPreparationOOP.climbers.handball.core;
+package handball.core;
 
-import SoftUniJavaOOP.ExamPreparationOOP.climbers.handball.common.Command;
+import handball.common.Command;
 
 import java.io.BufferedReader;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package SoftUniJavaOOP.ExamPreparationOOP.climbers.handball.common;
+package handball.common;
 
 public class ConstantMessages {
     public static final String GAMEPLAY_NOT_SUITABLE = "The coverage of the terrain is not suitable.";

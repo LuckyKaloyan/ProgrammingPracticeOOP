@@ -1,6 +1,6 @@
-package SoftUniJavaOOP.ExamPreparationOOP.climbers.handball.entities.equipment;
+package handball.entities.equipment;
 
-public class BaseEquipment implements Equipment{
+public abstract class BaseEquipment implements Equipment{
     private int protection;
     private double price;
 

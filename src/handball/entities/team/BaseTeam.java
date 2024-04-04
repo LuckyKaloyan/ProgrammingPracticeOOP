@@ -1,6 +1,6 @@
-package SoftUniJavaOOP.ExamPreparationOOP.climbers.handball.entities.team;
+package handball.entities.team;
 
-import SoftUniJavaOOP.ExamPreparationOOP.climbers.handball.common.ExceptionMessages;
+import handball.common.ExceptionMessages;
 
 
 public abstract class BaseTeam implements Team{
@@ -23,13 +23,10 @@ public abstract class BaseTeam implements Team{
     }
     @Override
     public void play(){}
-
-
     @Override
     public String getName() {
         return name;
     }
-
     @Override
     public int getAdvantage() {
         return advantage;

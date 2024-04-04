@@ -1,4 +1,4 @@
-package SoftUniJavaOOP.ExamPreparationOOP.climbers.handball.common;
+package handball.common;
 
 public class ExceptionMessages {
     public static final String TEAM_NAME_NULL_OR_EMPTY = "Team name cannot be null or empty.";

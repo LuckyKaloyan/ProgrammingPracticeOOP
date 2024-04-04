@@ -1,7 +1,7 @@
-package SoftUniJavaOOP.ExamPreparationOOP.climbers.handball.entities.gameplay;
+package handball.entities.gameplay;
 
-import SoftUniJavaOOP.ExamPreparationOOP.climbers.handball.entities.equipment.Equipment;
-import SoftUniJavaOOP.ExamPreparationOOP.climbers.handball.entities.team.Team;
+import handball.entities.equipment.Equipment;
+import handball.entities.team.Team;
 
 import java.util.Collection;
 

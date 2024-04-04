@@ -1,14 +1,15 @@
-package SoftUniJavaOOP.ExamPreparationOOP.climbers.handball.repositories;
+package handball.repositories;
 
-import SoftUniJavaOOP.ExamPreparationOOP.climbers.handball.entities.equipment.Equipment;
+import handball.entities.equipment.Equipment;
 
+import java.util.ArrayList;
 import java.util.Collection;
 
-public abstract class EquipmentRepository {
+public  class EquipmentRepository {
     private Collection<Equipment> equipments;
 
-    public EquipmentRepository(Collection<Equipment> equipments) {
-        this.equipments = equipments;
+    public EquipmentRepository() {
+        this.equipments = new ArrayList<>();
     }
 
     public void add(Equipment equipment) {
