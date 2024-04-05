@@ -60,4 +60,14 @@ public abstract class BaseGameplay implements Gameplay{
               TeamLine+"\n"+
               "Equipment: %d, Protection: %d",name,getClass().getSimpleName(),equipments.size(),allProtection());
     }
+
+    @Override
+    public Collection<Team> getTeam() {
+        return teams;
+    }
+
+    @Override
+    public Collection<Equipment> getEquipments() {
+        return equipments;
+    }
 }
