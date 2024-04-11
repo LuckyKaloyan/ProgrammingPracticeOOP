@@ -1,4 +1,4 @@
-package bank.entities.loan;
+package SoftUniJavaOOP.ExamPreparationOOP.bank.entities.loan;
 
 public class StudentLoan extends BaseLoan{
     private static int DEFAULT_INTEREST_RATE = 1;

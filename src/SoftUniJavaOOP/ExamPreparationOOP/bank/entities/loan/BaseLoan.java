@@ -1,4 +1,4 @@
-package bank.entities.loan;
+package SoftUniJavaOOP.ExamPreparationOOP.bank.entities.loan;
 
 public abstract class BaseLoan implements Loan{
 private int interestRate;

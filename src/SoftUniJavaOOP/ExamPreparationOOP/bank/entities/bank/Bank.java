@@ -1,7 +1,7 @@
-package bank.entities.bank;
+package SoftUniJavaOOP.ExamPreparationOOP.bank.entities.bank;
 
-import bank.entities.client.Client;
-import bank.entities.loan.Loan;
+import SoftUniJavaOOP.ExamPreparationOOP.bank.entities.client.Client;
+import SoftUniJavaOOP.ExamPreparationOOP.bank.entities.loan.Loan;
 
 import java.util.Collection;
 

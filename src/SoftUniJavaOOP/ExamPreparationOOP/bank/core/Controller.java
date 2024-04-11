@@ -1,4 +1,4 @@
-package bank.core;
+package SoftUniJavaOOP.ExamPreparationOOP.bank.core;
 
 public interface Controller {
 

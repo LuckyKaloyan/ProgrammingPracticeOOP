@@ -1,6 +1,6 @@
-package bank.core;
+package SoftUniJavaOOP.ExamPreparationOOP.bank.core;
 
-import bank.common.Command;
+import SoftUniJavaOOP.ExamPreparationOOP.bank.common.Command;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -12,7 +12,7 @@ public class EngineImpl implements Engine {
     private BufferedReader reader;
 
     public EngineImpl() {
-        this.controller = new ControllerImpl(); //TODO implement first
+        this.controller = (Controller) new ControllerImpl(); //TODO implement first
         this.reader = new BufferedReader(new InputStreamReader(System.in));
     }
 

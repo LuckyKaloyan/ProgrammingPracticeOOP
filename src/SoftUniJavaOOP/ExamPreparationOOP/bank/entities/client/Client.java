@@ -1,4 +1,4 @@
-package bank.entities.client;
+package SoftUniJavaOOP.ExamPreparationOOP.bank.entities.client;
 
 public interface Client {
     String getName();

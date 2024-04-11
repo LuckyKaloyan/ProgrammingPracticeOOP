@@ -1,6 +1,6 @@
-package bank.entities.client;
+package SoftUniJavaOOP.ExamPreparationOOP.bank.entities.client;
 
-import bank.common.ExceptionMessages;
+import SoftUniJavaOOP.ExamPreparationOOP.bank.common.ExceptionMessages;
 
 public abstract class BaseClient implements Client{
     private String name;

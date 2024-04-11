@@ -1,4 +1,4 @@
-package bank.entities.client;
+package SoftUniJavaOOP.ExamPreparationOOP.bank.entities.client;
 
 public class Adult extends BaseClient{
     private static int DEFAULT_INTEREST = 4;

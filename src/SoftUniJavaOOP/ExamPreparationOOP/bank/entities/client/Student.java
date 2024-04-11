@@ -1,4 +1,4 @@
-package bank.entities.client;
+package SoftUniJavaOOP.ExamPreparationOOP.bank.entities.client;
 
 public class Student extends BaseClient{
 

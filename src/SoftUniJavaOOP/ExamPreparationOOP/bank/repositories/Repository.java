@@ -1,6 +1,6 @@
-package bank.repositories;
+package SoftUniJavaOOP.ExamPreparationOOP.bank.repositories;
 
-import bank.entities.loan.Loan;
+import SoftUniJavaOOP.ExamPreparationOOP.bank.entities.loan.Loan;
 
 public interface Repository {
 

@@ -1,4 +1,4 @@
-package bank.common;
+package SoftUniJavaOOP.ExamPreparationOOP.bank.common;
 
 public enum Command {
     AddBank,
