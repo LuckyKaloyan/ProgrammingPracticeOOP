@@ -1,6 +1,6 @@
-package robotService.repositories;
+package SoftUniJavaOOP.ExamPreparationOOP.robotService.repositories;
 
-import robotService.entities.supplements.Supplement;
+import SoftUniJavaOOP.ExamPreparationOOP.robotService.entities.supplements.Supplement;
 
 public interface Repository {
 

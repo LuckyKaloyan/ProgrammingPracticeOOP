@@ -1,4 +1,4 @@
-package robotService.core;
+package SoftUniJavaOOP.ExamPreparationOOP.robotService.core;
 
 public interface Controller {
     String addService(String type, String name);

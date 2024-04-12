@@ -1,4 +1,4 @@
-package robotService.entities.robot;
+package SoftUniJavaOOP.ExamPreparationOOP.robotService.entities.robot;
 
 public class FemaleRobot extends BaseRobot{
 
@@ -8,7 +8,7 @@ public class FemaleRobot extends BaseRobot{
 
     @Override
     public void eating() {
-        setKilograms(3);
+        setKilograms(1);
     }
 
 }

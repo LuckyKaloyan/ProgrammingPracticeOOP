@@ -1,4 +1,4 @@
-package robotService.entities.supplements;
+package SoftUniJavaOOP.ExamPreparationOOP.robotService.entities.supplements;
 
 public abstract class BaseSupplement implements Supplement{
 

@@ -1,4 +1,4 @@
-package robotService.common;
+package SoftUniJavaOOP.ExamPreparationOOP.robotService.common;
 
 public class ExceptionMessages {
     public static final String ROBOT_NAME_CANNOT_BE_NULL_OR_EMPTY = "Robot name cannot be null or empty.";

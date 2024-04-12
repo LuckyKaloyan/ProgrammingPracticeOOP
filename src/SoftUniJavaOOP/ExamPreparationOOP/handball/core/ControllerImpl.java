@@ -144,6 +144,10 @@ public  class ControllerImpl implements Controller {
         }
         return kek.toString();
     }
+    public void eating(){
+
+    }
+
 }
 
 

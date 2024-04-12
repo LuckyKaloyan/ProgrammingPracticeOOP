@@ -1,4 +1,4 @@
-package robotService.entities.robot;
+package SoftUniJavaOOP.ExamPreparationOOP.robotService.entities.robot;
 
 public interface Robot {
     String getName();

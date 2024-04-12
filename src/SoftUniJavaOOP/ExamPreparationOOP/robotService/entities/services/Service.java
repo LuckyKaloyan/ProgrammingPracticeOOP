@@ -1,7 +1,7 @@
-package robotService.entities.services;
+package SoftUniJavaOOP.ExamPreparationOOP.robotService.entities.services;
 
-import robotService.entities.robot.Robot;
-import robotService.entities.supplements.Supplement;
+import SoftUniJavaOOP.ExamPreparationOOP.robotService.entities.robot.Robot;
+import SoftUniJavaOOP.ExamPreparationOOP.robotService.entities.supplements.Supplement;
 
 import java.util.Collection;
 

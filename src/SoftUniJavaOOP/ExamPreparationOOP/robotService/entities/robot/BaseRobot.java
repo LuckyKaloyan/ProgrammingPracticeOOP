@@ -1,6 +1,6 @@
-package robotService.entities.robot;
+package SoftUniJavaOOP.ExamPreparationOOP.robotService.entities.robot;
 
-import robotService.common.ExceptionMessages;
+import SoftUniJavaOOP.ExamPreparationOOP.robotService.common.ExceptionMessages;
 
 public abstract class BaseRobot implements Robot{
 

@@ -1,4 +1,4 @@
-package robotService.common;
+package SoftUniJavaOOP.ExamPreparationOOP.robotService.common;
 
 public enum Command {
     AddService,

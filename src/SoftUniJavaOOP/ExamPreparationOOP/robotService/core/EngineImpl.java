@@ -1,6 +1,6 @@
-package robotService.core;
+package SoftUniJavaOOP.ExamPreparationOOP.robotService.core;
 
-import robotService.common.Command;
+import SoftUniJavaOOP.ExamPreparationOOP.robotService.common.Command;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -12,7 +12,7 @@ public class EngineImpl implements Engine {
     private BufferedReader reader;
 
     public EngineImpl() {
-        this.controller = new ControllerImpl(); //TODO implement first
+    //    this.controller = new ControllerImpl();
         this.reader = new BufferedReader(new InputStreamReader(System.in));
     }
 

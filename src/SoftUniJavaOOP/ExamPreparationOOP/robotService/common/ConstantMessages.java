@@ -1,4 +1,4 @@
-package robotService.common;
+package SoftUniJavaOOP.ExamPreparationOOP.robotService.common;
 
 public class ConstantMessages {
     public static final String NOT_ENOUGH_CAPACITY_FOR_ROBOT = "Not enough capacity for this robot.";
