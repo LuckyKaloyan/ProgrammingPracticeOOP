@@ -1,7 +1,7 @@
-package magicGame.models.magicians;
+package SoftUniJavaOOP.ExamPreparationOOP.magicGame.models.magicians;
 
-import magicGame.common.ExceptionMessages;
-import magicGame.models.magics.Magic;
+import SoftUniJavaOOP.ExamPreparationOOP.magicGame.common.ExceptionMessages;
+import SoftUniJavaOOP.ExamPreparationOOP.magicGame.models.magics.Magic;
 
 public abstract class MagicianImpl implements Magician{
 

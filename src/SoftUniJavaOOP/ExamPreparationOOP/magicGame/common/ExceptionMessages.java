@@ -1,4 +1,4 @@
-package magicGame.common;
+package SoftUniJavaOOP.ExamPreparationOOP.magicGame.common;
 
 public class ExceptionMessages {
     public static final String INVALID_MAGICIAN_NAME = "Username cannot be null or empty.";

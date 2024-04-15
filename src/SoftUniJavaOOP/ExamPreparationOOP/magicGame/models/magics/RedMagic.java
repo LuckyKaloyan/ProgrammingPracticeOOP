@@ -1,4 +1,4 @@
-package magicGame.models.magics;
+package SoftUniJavaOOP.ExamPreparationOOP.magicGame.models.magics;
 
 public class RedMagic extends MagicImpl{
 

@@ -1,4 +1,4 @@
-package magicGame.common;
+package SoftUniJavaOOP.ExamPreparationOOP.magicGame.common;
 
 public enum Command {
     AddMagic,

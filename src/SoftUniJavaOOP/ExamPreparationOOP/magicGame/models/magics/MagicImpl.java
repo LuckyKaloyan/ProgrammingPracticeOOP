@@ -1,6 +1,6 @@
-package magicGame.models.magics;
+package SoftUniJavaOOP.ExamPreparationOOP.magicGame.models.magics;
 
-import magicGame.common.ExceptionMessages;
+import SoftUniJavaOOP.ExamPreparationOOP.magicGame.common.ExceptionMessages;
 
 
 public abstract class MagicImpl implements Magic {

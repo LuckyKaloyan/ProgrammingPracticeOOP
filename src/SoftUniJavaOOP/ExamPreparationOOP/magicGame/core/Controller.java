@@ -1,4 +1,4 @@
-package magicGame.core;
+package SoftUniJavaOOP.ExamPreparationOOP.magicGame.core;
 
 public interface Controller {
     String addMagic(String type, String name, int bulletsCount);

@@ -1,6 +1,6 @@
-package magicGame.core;
+package SoftUniJavaOOP.ExamPreparationOOP.magicGame.core;
 
-import magicGame.common.Command;
+import SoftUniJavaOOP.ExamPreparationOOP.magicGame.common.Command;
 
 import java.io.BufferedReader;
 import java.io.IOException;

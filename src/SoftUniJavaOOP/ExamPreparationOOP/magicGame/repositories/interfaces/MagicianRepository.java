@@ -1,6 +1,6 @@
-package magicGame.repositories.interfaces;
+package SoftUniJavaOOP.ExamPreparationOOP.magicGame.repositories.interfaces;
 
-import magicGame.models.magicians.Magician;
+import SoftUniJavaOOP.ExamPreparationOOP.magicGame.models.magicians.Magician;
 
 import java.util.Collection;
 

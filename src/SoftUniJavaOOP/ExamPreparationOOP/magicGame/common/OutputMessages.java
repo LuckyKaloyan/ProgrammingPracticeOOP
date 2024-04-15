@@ -1,4 +1,4 @@
-package magicGame.common;
+package SoftUniJavaOOP.ExamPreparationOOP.magicGame.common;
 
 public class OutputMessages {
     public static final String SUCCESSFULLY_ADDED_MAGICIAN = "Successfully added magician %s.";

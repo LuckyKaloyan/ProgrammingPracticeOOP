@@ -1,6 +1,6 @@
-package magicGame.models.magicians;
+package SoftUniJavaOOP.ExamPreparationOOP.magicGame.models.magicians;
 
-import magicGame.models.magics.Magic;
+import SoftUniJavaOOP.ExamPreparationOOP.magicGame.models.magics.Magic;
 
 public interface Magician {
     String getUsername();
